@@ -38,4 +38,12 @@ python extract.py --image {"image_path.jpg"} --preprocess {default=thresh}
 
 or just simply,
 
-python extract.py --image {"image_path.jpg}
+python extract.py --image {"image_path.jpg"}
+
+## Features:
+
+* ROI Selector to select region for Text Extraction
+* Rotate images horizontally for more efficient extraction
+* Deskewing
+* Brightness and Contrast Modifications
+* Filters
