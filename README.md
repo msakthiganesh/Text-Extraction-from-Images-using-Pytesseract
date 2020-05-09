@@ -28,3 +28,14 @@ pip install pycld2
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\USER\AppData\Local\Tesseract-OCR\tesseract.exe'
 
+## Procedure:
+
+python extract.py -i "image_path.jpg" -p {default=thresh}
+
+or
+
+python extract.py --image {"image_path.jpg"} --preprocess {default=thresh}
+
+or just simply,
+
+python extract.py --image {"image_path.jpg}
